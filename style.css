@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:#283747;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.toggle1, .toggle2{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+   
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+   
+
+}
+.menu > ul > li > a:hover{
+    background-color: #2E4053;
+}
+.menu > ul > li{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.menu ul ul {
+    background-color:#283747;
+    padding: 10px 15px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+   
+}
+.menu ul > ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.menu ul li ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+}
+.menu ul li ul  li  a{
+   color: white;
+   text-decoration: none;
+   list-style: none;
+   text-transform: uppercase;
+   padding-top: 10px;
+   display: block;
+}
+.menu ul li ul  li  a:hover{
+    background-color:#2E4053;
+    width: 100%;
+}
